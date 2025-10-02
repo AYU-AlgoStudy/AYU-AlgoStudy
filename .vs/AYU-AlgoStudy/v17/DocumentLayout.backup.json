@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\zldzldzz\\week01.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:zldzldzz\\week01.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\Okchun-Yee\\week01.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Okchun-Yee\\week01.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\Okchun-Yee\\week01_tu.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Okchun-Yee\\week01_tu.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +14,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "week01.md",
-              "DocumentMoniker": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\Okchun-Yee\\week01.md",
-              "RelativeDocumentMoniker": "Okchun-Yee\\week01.md",
-              "ToolTip": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\Okchun-Yee\\week01.md",
-              "RelativeToolTip": "Okchun-Yee\\week01.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-09-30T02:15:41.711Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "week01.md",
-              "DocumentMoniker": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\zldzldzz\\week01.md",
-              "RelativeDocumentMoniker": "zldzldzz\\week01.md",
-              "ToolTip": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\zldzldzz\\week01.md",
-              "RelativeToolTip": "zldzldzz\\week01.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "week01_tu.md",
+              "DocumentMoniker": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\Okchun-Yee\\week01_tu.md",
+              "RelativeDocumentMoniker": "Okchun-Yee\\week01_tu.md",
+              "ToolTip": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\Okchun-Yee\\week01_tu.md",
+              "RelativeToolTip": "Okchun-Yee\\week01_tu.md",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-09-30T02:15:40.274Z",
+              "WhenOpened": "2025-10-01T02:32:02.122Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-09-30T02:15:34.055Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
