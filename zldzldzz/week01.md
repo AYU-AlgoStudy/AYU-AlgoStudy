@@ -229,3 +229,26 @@ public class Main {
 
 https://minhamina.tistory.com/80
 
+---
+
+# 1주차 3번 문제 프로그래머스 네트워크
+
+https://school.programmers.co.kr/learn/courses/30/lessons/43162?language=java
+
+# 1주차 4번 문제 백준 2606번
+
+https://www.acmicpc.net/problem/2606
+
+# 1주차 5번 문제 백준 2667번
+
+https://www.acmicpc.net/problem/2667
+
+### 배운점:
+1주차의 3번에서 5번 문제는 내가 비교적으로 빠르게 해결할 수 있는 BFS방식을 사용했다.
+때문에 별도의 참고자료가 없이 비교적 빠른 시간 내의 문제를 해결할 수 있었다.
+왜? BFS로 빠르게 풀었어?
+- BFS/DFS 중에 어떤 것이 더 효율적인지는 문제의 상황에 따라 다르다.
+- 문제 사항에서 DFS가 효율적이지 않은데 익숙하지 않은  DFS를 사용하는 것은 비효율적이다.
+- 기존의 BFS 방식으로 빠르게 문제를 해결 할 수 있는지 테스트 해보았다.
+
+DFS를 필요로 하는 다른 문제들을 풀어보는 것이 상황에 맞는 곳에서 적절히 사용할 수 있다고 생각한다.
