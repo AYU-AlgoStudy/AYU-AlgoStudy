@@ -252,3 +252,77 @@ https://www.acmicpc.net/problem/2667
 - 기존의 BFS 방식으로 빠르게 문제를 해결 할 수 있는지 테스트 해보았다.
 
 DFS를 필요로 하는 다른 문제들을 풀어보는 것이 상황에 맞는 곳에서 적절히 사용할 수 있다고 생각한다.
+
+---
+# 1주차 6번 문제 백준 7576번
+
+https://www.acmicpc.net/problem/7576
+
+## 풀이 코드:
+```java
+public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+		int result = 0;
+
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int n = Integer.parseInt(st.nextToken());
+		int m = Integer.parseInt(st.nextToken());
+		int[][] map = new int[m][n];
+		boolean[][] visited = new boolean[m][n];
+
+		ArrayDeque<Integer[]> q = new ArrayDeque<>();
+		int[][] dir = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+
+		for (int i = 0; i < m; i++) {
+			st = new StringTokenizer(br.readLine());
+			for (int j = 0; j < n; j++) {
+				map[i][j] = Integer.parseInt(st.nextToken());
+				if (map[i][j] == 1) {
+					q.add(new Integer[] {i, j, 0});
+					visited[i][j] = true;
+				}
+			}
+		}
+		while (!q.isEmpty()) {
+			Integer[] now = q.poll();
+			result = Math.max(result, now[2]);
+			for (int i = 0; i < 4; i++) {
+				int x = now[0] + dir[i][0];
+				int y = now[1] + dir[i][1];
+				if (x >= 0 && y >= 0 && x < m && y < n && !visited[x][y]) {
+					if (map[x][y] == 0) {
+						visited[x][y] = true;
+						q.add(new Integer[] {x, y, now[2] + 1});
+					}
+				}
+			}
+		}
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				if (map[i][j] == 0 && !visited[i][j]) {
+					result = -1;
+				}
+			}
+		}
+
+		bw.write(String.valueOf(result));
+		bw.flush();
+		bw.close();
+		br.close();
+	}
+}
+```
+### 배운점:
+기존의 BFS의 방식에서 split를 사용하지 않고 StringTokenizer를 사용하는 방식으로 변경했고 기존의 LinkedList를 사용하는 것이 아니라
+ArrayDeque를 사용하는 방식으로 변경했다. 변경한 이유는 아래 블로그를 보고 더 효율적인 자료형을 사용하고자 했다.
+ArrayDeque가 같은 동작을 더 효율적으로 다양한 동작으로 할 수 있는데 굳이 LinkedList를 사용하는 것은 비효율적이라는 생각을 했다.
+코딩 테스트는 짧은 시간의 정확한 요구사항 수행이 중요하다고 생각한다.
+요구사항에는 시간 제한, 메모리 제한도 포함될 것이다. 때문에 내가 더 활용하기 쉽고 효율적인 방법으로 코드를 수정하는 것들이 더 중요하다고 느꼈다.
+
+### 참고자료:
+
+https://claremont.tistory.com/entry/Java-API-Queue-Deque-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4ArrayDeque-LinkedList?utm_source=chatgpt.com
+
