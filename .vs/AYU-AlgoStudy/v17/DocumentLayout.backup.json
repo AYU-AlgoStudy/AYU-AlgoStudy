@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -45,7 +49,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-10-03T07:00:28.563Z",
               "EditorCaption": ""
@@ -58,7 +62,7 @@
               "RelativeDocumentMoniker": "Okchun-Yee\\week01.md",
               "ToolTip": "C:\\Users\\haj31\\Documents\\GitHub\\AYU-AlgoStudy\\Okchun-Yee\\week01.md",
               "RelativeToolTip": "Okchun-Yee\\week01.md",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAJkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAALUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-10-02T01:13:15.012Z",
               "EditorCaption": ""
