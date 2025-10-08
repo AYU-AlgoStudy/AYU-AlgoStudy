@@ -4,7 +4,7 @@
 > https://www.acmicpc.net/problem/1182
 
 ### 문제 풀이
-> 백준/Silver/1182. 부분수열의 합/부분수열의 합.cc
+> [백준/Silver/1182. 부분수열의 합/부분수열의 합.cc](https://github.com/Okchun-Yee/CodingTestStudy/blob/6c54903ec49b309cb286fad74abac986cc737a01/%EB%B0%B1%EC%A4%80/Silver/1182.%E2%80%85%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9/%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9.cc)
 
 ### 개념 정리
 > 백트래킹 & 브루트 포스 알고리즘 개념 정리
@@ -36,7 +36,7 @@
 > https://www.acmicpc.net/problem/1759
 
 ### 문제 풀이
-> 백준/Gold/1759. 암호 만들기
+> [백준/Gold/1759. 암호 만들기](https://github.com/Okchun-Yee/CodingTestStudy/blob/6c54903ec49b309cb286fad74abac986cc737a01/%EB%B0%B1%EC%A4%80/Gold/1759.%E2%80%85%EC%95%94%ED%98%B8%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/%EC%95%94%ED%98%B8%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0.cc)
 
 ### 개념 정리
 > 백트래킹 개념 활용 문제
@@ -69,7 +69,7 @@
 > https://www.acmicpc.net/problem/1987
 
 ### 문제 풀이
-> 백준/Gold/1987. 알파벳
+> [백준/Gold/1987. 알파벳](https://github.com/Okchun-Yee/CodingTestStudy/blob/6c54903ec49b309cb286fad74abac986cc737a01/%EB%B0%B1%EC%A4%80/Gold/1987.%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3/%EC%95%8C%ED%8C%8C%EB%B2%B3.cc)
 
 ### 개념 정리
 > 백트래킹 & DFS + map 자료구조 + 미로탐색 알고리즘 개념 정리
@@ -102,7 +102,7 @@
 > https://www.acmicpc.net/problem/9663
 
 ### 문제 풀이
-> 백준/Gold/9663. N－Queen
+> [백준/Gold/9663. N－Queen](https://github.com/Okchun-Yee/CodingTestStudy/blob/6c54903ec49b309cb286fad74abac986cc737a01/%EB%B0%B1%EC%A4%80/Gold/9663.%E2%80%85N%EF%BC%8DQueen/N%EF%BC%8DQueen.cc)
 
 ### 개념 정리
 > 백트래킹 활용
