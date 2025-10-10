@@ -268,3 +268,76 @@
 
 > 참고 자료
 > 
+
+---
+
+## 2주차 9번 문제 백준 19535번
+
+> 🔗| 문제 Link
+> https://www.acmicpc.net/problem/19535
+
+### 문제 풀이
+> [백준/Gold/19535. ㄷㄷㄷㅈ/ㄷㄷㄷㅈ.cc](https://github.com/Okchun-Yee/CodingTestStudy/blob/a2879bebb3515c83035ae78ec86b9374e3dc28ec/%EB%B0%B1%EC%A4%80/Gold/19535.%E2%80%85%E3%84%B7%E3%84%B7%E3%84%B7%E3%85%88/%E3%84%B7%E3%84%B7%E3%84%B7%E3%85%88.cc)
+
+### 개념 정리
+> 각 노드의 E 정보 만으로 트리의 개수 파악
+```  # 'ㅈ' 트리 카운팅 원리 : 노드 중심
+    하나의 중심 노드 - 3개의 간선
+    1. 임의의 노드 i에 연결된 간선의 총개수 (k)
+    2. i 노드 중심으로 'ㅈ' 트리 구성을 위해서는 k 개의 간선 중 3개를 선택 
+    => (kC3)
+    3. 이 계산을 1번 ~ N번 까지에 대해 각각 수행 후 모든 결과 더하기
+    ![formula](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle%20cntG%20%3D%20%5Csum_%7Bi%3D1%7D%5EN%20%5Ctext%7Bcombination%7D(%5Ctext%7Bdegree%7D(i)%2C%203))
+
+
+    # 'ㄷ' 트리 카운팅 원리 : 간선 중심
+    4개의 노드가 선형으로 이어진 경로 - 중심 간선 기준으로 계산
+    1. 임의의 간선 (u, v)
+    2. 해당 간선을 중심으로 u의 이웃, v의 이웃을 하나씩 선택
+        - u에 연결된 다른 간선의 수: `degree(u) - 1` (v로 가는 간선 제외)
+        - v에 연결된 다른 간선의 수: `degree(v) - 1` (u로 가는 간선 제외)
+    3. 간선 (u, v) 가 만들 수 있는 'ㄷ' 트리의 수 
+    = `(degree(u) - 1) * (degree(v) - 1)`
+    4. 모든 간선에 대해 수행 후 결과 전부 더하기
+    ![formula](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle%20cntD%20%3D%20%5Csum_%7B%5Ctext%7Bedge%7D(u%2Cv)%7D%20(%5Ctext%7Bdegree%7D(u)%20-%201)%20%5Ctimes%20(%5Ctext%7Bdegree%7D(v)%20-%201))
+
+```
+
+> 문제 풀이 과정에서 개선점
+``` 오답 1) 첫 시도한 N, G 트리의 개수를 세는 로직의 오류
+    > 첫 번째 DFS(go 함수)를 통해 모든 노드의 **깊이(depth)**와 **자식 수(childArr)**를 계산하는 것입니다. 이 값들은 트리의 루트를 1번으로 고정했을 때만 의미 BUT, 루트가 누군지는 관계없이 각 노드의 전체 차수에 의해서 결정하여야함.
+    ``` 
+        *구체적인 로직 오류 (Gemini)*
+
+        > 'G' 트리 계산 오류
+        `gNum += combination(childArr[next], 2);`: 이 코드는 'G' 트리의 정의와 아무런 관련이 없는 잘못된 값을 더하고 있습니다.
+        `gNum += combination(childArr[current], 3);`: 이 코드는 childArr(자식 수)을 기준으로 계산합니다. 하지만 'G' 트리는 부모쪽 간선을 포함한 전체 차수(tree[current].size())를 기준으로 계산해야 합니다. 예를 들어, 중간에 있는 노드는 부모 간선이 빠져있어 degree보다 childArr 1 작으므로 cntD가 더 적게 계산됩니다.
+
+        > 'D' 트리 계산 오류
+        `i`f (depth[current] >= 4) { cntD += 1; }`: 깊이를 이용한 이 계산은 'D' 트리를 세는 올바른 방법이 아니며, 불필요한 값을 더합니다.
+        `cntD += childArr[next] * (childArr[current] - 1);`: 올바른 'D' 트리 계산은 모든 간선 (u, v)에 대해 (degree(u)-1) * (degree(v)-1)을 더하는 것입니다. 이 코드는 degree가 아닌 childArr 사용하고, childArr[next]에서 1을 빼지 않는 등 공식이 틀렸습니다.
+    ```
+
+    오답 2) 근본적인 접근 방식 오류
+    > D & G 트리를 계산 하는 상황 자체는 맞게 설계하였으나 이를 구현하기 위해 노드별 깊이와 노드별 자식 노드를 파악하는 DFS 1회
+    그 후 각 트리의 모양을 계산 하는 DFS 2회로 구성 하였으나 이 부분의 시간복잡도가 아예 범위를 벗어나있었기에 바로 오답처리가 되었습니다.
+    ``` 구조를 아예 변경 하였습니다. 각 정점의 간선으로 부터 차수의 수를 이용한 계산으로 변경
+        # 'G' 트리 계산
+        for (int i = 1; i <= N; ++i) {
+            cntG += combination3(tree[i].size());
+        }
+        # 'D' 트리 계산
+        for (const auto& edge : edges) {
+            long long u = edge.first;
+            long long v = edge.second;
+
+            cntD += (long long)(tree[u].size() - 1) * (long long)(tree[v].size() - 1);
+        }
+    ```
+```
+
+### 총평
+> 생각 외어 어렵게 접근했던 문제이지만 막상 정답을 확인하게 되니 너무 간단해서 오히려 진이 빠진것 같다. 요즘 너무 탐색에만 몰두 하다보니 모든 문제를 탐색을 사용하혀는 안좋은 습관이 생긴 것같다. 항상 문제의 접근 방식에 대해서 다양한 시각에서 봐야하는 점을 배우게 된 문제인것 같다. 
+
+> 참고 자료
+> https://glanceyes.com/entry/BOJ-%EB%B0%B1%EC%A4%80-19535%EB%B2%88-%E3%84%B7%E3%84%B7%E3%84%B7%E3%85%88 - 오류 발생의 원인
