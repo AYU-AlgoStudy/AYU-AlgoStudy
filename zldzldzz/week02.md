@@ -3,8 +3,7 @@
 🔗| 문제 Link
 https://www.acmicpc.net/problem/1182
 
-### 문제 풀이 
-부분수열의합
+### 문제 풀이
 https://github.com/zldzldzz/Algorithm/commit/493d4fca87b0bf47ce1fafb2b1ccd4e16bde09eb
 
 ### 개념 정리
@@ -71,3 +70,21 @@ https://github.com/zldzldzz/Algorithm/commit/3288cb7d1c990c3a1d251915e3170f1446a
 코드의 실행 순서를 고려하여 작성해야 한다는 것을 다시 한번 경험했다.
 
 ---
+
+## 2주차 3번 문제 백준 1987번
+
+🔗| 문제 Link
+https://www.acmicpc.net/problem/1987
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/867d62dcf22b26426be8ce94b182e686170d55b1
+
+### 개념 정리
+visited을 26자리로 만들어 알파벳 중 어디에 도착했는지 확인하고 되돌리는 단순 백트래킹 문제라고 할 수 있었지만
+아직 개념과 기초를 명확하게 잡지 못해 오랜 시간이 걸렸다. 위에서 정의한 백트래킹 의사 코드를 더 생각하고 문제를
+풀면 좋을 것 같다.
+
+### 총평
+
+아직 백트레킹의 개념이 부족하다고 다시 한번 느끼게 되었다.
+
