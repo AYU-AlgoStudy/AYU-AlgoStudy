@@ -164,3 +164,18 @@ https://github.com/zldzldzz/Algorithm/commit/ed654bd248982b57537b294f1a7c4e18754
 ### 총평
 트리의 구현도 중요하지만 접근 방식도 고민할 필요가 있다는 것을 알게 되었다.
 
+---
+
+## 2주차 8번 문제 백준 5639번
+
+🔗| 문제 Link
+https://www.acmicpc.net/problem/5639
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/e6d6bcd93e78174de128c4e76f923558836d6a89
+
+### 개념 정리
+아직 이진트리의 구현을 명확하게 하지 못해 이전의 풓었던 트리를 참고해서 풀었다.
+
+### 총평
+트리 구현에 대해 코드 작성 방식을 익히는 것이 중요할 것 같다.
