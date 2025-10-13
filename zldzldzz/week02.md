@@ -130,3 +130,19 @@ https://github.com/zldzldzz/Algorithm/commit/9ef9fc9c370d08c6d15bf1cb77f590500b0
 
 가벼운 활용이라고 생각할 수 있지만 스켈레톤 코드를 명확하게 하지 못하면 오랜 시간이 걸릴 것 같다.
 
+---
+
+## 2주차 6번 문제 백준 2580번
+
+🔗| 문제 Link
+https://www.acmicpc.net/problem/2580
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/a16f88e118331adc5213c87f1c019119536b0d09#diff-dc69c2e000bae8378e87f9bb0571d4d3f20b8a4549339f3be37f22f1e6806bc4
+
+### 개념 정리
+nx와 ny를 3을 나누고 다시 곱하는 것을 고려하지 못해서 첫번째 3개만 성공하고 원인을 찾지 못하고 있었다.
+코드를 작성 후 한번 흐름을 따라다는 과정이 꼭 필요하다는 생각이 들었다.
+
+### 총평
+아직은 구현을 할때 오랜 시간이 소요되고 중간 중간 반례를 찾지 못하지만 더 많은 문제를 풀어 경험을 늘리는 것이 필요해 보인다.
