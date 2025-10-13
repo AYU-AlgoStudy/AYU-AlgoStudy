@@ -179,3 +179,23 @@ https://github.com/zldzldzz/Algorithm/commit/e6d6bcd93e78174de128c4e76f923558836
 
 ### 총평
 트리 구현에 대해 코드 작성 방식을 익히는 것이 중요할 것 같다.
+
+---
+
+## 2주차 9번 문제 백준 19535번
+
+🔗| 문제 Link
+https://www.acmicpc.net/problem/19535
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/79e2ed636bcda055b3a2dc8c5b7d9db8be8c3825
+
+### 개념 정리
+ㄷ은 간선을 기주능로 ㅈ은 노드를 기준으로 생각했다면 쉽게 풀었을 것 같지만 해당 문제도 접근 자체를 잘못해서 풀지 못하고 구글링을 통해 먼저 읽은 후에 직접 구현했다.
+
+### 총평
+진짜 할많이 너무 많은데 진짜 말도 안된다고 생각하는데 접근 방식은 다 틀리고 수학적으로 완전 져버린 느낌
+
+### 참고
+https://tussle.tistory.com/913
+
