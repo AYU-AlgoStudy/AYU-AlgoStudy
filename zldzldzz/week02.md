@@ -199,3 +199,21 @@ https://github.com/zldzldzz/Algorithm/commit/79e2ed636bcda055b3a2dc8c5b7d9db8be8
 ### 참고
 https://tussle.tistory.com/913
 
+---
+
+## 2주차 10번 문제 백준 1261번
+
+🔗| 문제 Link
+https://www.acmicpc.net/problem/1261
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/794443683bff98ebe5a2c870a507c06736d51da4
+
+### 개념 정리
+0-1 BFS 라는 개념을 처음 알게 되었다. 기존의 방식으로 Queue를 사용해서는 풀 수 없다는 것을 전혀 이해하지 못하고 GPT에게 문제점을 물어보고 나서야 원인을 이해했다.
+이를 통해서 탐색 알고리즘 선택 기준을 비교적 더 정확하게 알 수 있게 되었다.
+
+### 총평
+문제를 풀 수 록 모르는 알고리즘을 만나거나 접근 방식이 계속 틀린다.
+원인을 분석할 필요가 있어 보인다.
+
