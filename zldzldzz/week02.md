@@ -112,3 +112,21 @@ N, M을 받으면 이차원 배열을 생각한다는 생각에 갇혀 다른 �
 https://st-lab.tistory.com/118
 
 https://infodon.tistory.com/61
+
+---
+
+## 2주차 5번 문제 백준 14888번
+
+🔗| 문제 Link
+https://www.acmicpc.net/problem/14888
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/9ef9fc9c370d08c6d15bf1cb77f590500b0a2f3f
+
+### 개념 정리
+각 연산자의 수를 저장하는 배열을 선언하고 사용했다. 다른 백트래킹 문제와 비슷해서 비교적 빠르게 풀 수 있었지만 나누기의 음수를 고려하지 못해 실행 결과를 틀렸었다.
+
+### 총평
+
+가벼운 활용이라고 생각할 수 있지만 스켈레톤 코드를 명확하게 하지 못하면 오랜 시간이 걸릴 것 같다.
+
