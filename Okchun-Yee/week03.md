@@ -75,7 +75,7 @@ int y2 = y + dy[idx][1];
 
 --- 
 
-## n주차 n번 문제 
+## 3주차 2번 문제 BOJ 16571번
 
 > 🔗| 문제 Link
 > https://www.acmicpc.net/problem/16571
@@ -133,3 +133,59 @@ int y2 = y + dy[idx][1];
 
 ### 참고 자료
 > 
+
+---
+
+## 3주차 3번 문제 BOJ 
+
+> 🔗| 문제 Link
+> https://www.acmicpc.net/problem/14501
+
+### 문제 풀이
+> [백준/Silver/14501. 퇴사/퇴사.cc](https://github.com/Okchun-Yee/CodingTestStudy/blob/5ef8042ad8e11fcc1b3e15725ef6b6a0d9d01a8b/%EB%B0%B1%EC%A4%80/Silver/14501.%E2%80%85%ED%87%B4%EC%82%AC/%ED%87%B4%EC%82%AC.cc)
+
+### 개념 정리
+> **브루트 포스 재귀 탐색 개념 정리**
+
+    재귀 탐색을 통해서 모든 경우의 수를 탐색한다.
+    1. total을 추가하지 않고 다음 날로 넘어가는 경우의 수- 1
+    2. total을 추가하고 현재 날짜에 + t 만큼 증가하는 경우의 수 -2
+
+    종료 조건은 현재 날짜가 N 이상인 경우
+    But) 최댓값 갱신을 무조건 하는 것이 아닌 현재 날짜 == N 인 경우에만 최댓값 갱신
+    
+    현재 날짜가 N 초과이면 최댓값 갱신 없이 종료
+``` C++
+    void slove(int level, int total) {
+        // 1. 종료 조건: level이 N 이상
+        if (level >= N) {
+            // N과 동일한 경우 최댓값 갱신
+            if (level == N) {
+                maxTotal = max(maxTotal, total);
+            }
+            // N과 동일하지 않을 경우 초과이므로 갱신 X
+            return;
+        }
+
+        // 1. 경우의 수 - 다음으로 그냥 넘어가기
+        slove(level + 1, total);
+        // 2. 경우의 수 - 현재 level + t가 N 이하인 경우 상담 진행 + p 증가
+        if (level + matrix[level][0] <= N) {
+            slove(level + matrix[level][0], total + matrix[level][1]);
+        }
+    }
+
+    // 경우의 수 2의 경우 현재 날짜 + t 가 N 이하여야한다.
+    // 문제에서 N + 1 일째에 퇴사한다고 했기에 N 미만이 아닌 이하
+```
+
+> 문제 풀이 과정에서 개선점
+    
+    이 문제는 이전에 풀어 보았던 BOJ 1182번 문제와 비슷하여서 알고리즘 설계는 빠르게 할 수 있었던 문제였다. 다만 종료 조건 최댓값 갱신에서 N 이상인 경우에 전부 진행하여 답이 정상적으로 나오지 않는 오류가 있었다. 
+
+### 총평
+> 브루트 포스를 이용해 빠르게 접근한 문제였다.
+
+### 참고 자료
+> 
+
