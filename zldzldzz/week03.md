@@ -4,6 +4,7 @@
 https://www.acmicpc.net/problem/18430
 
 ### 문제 풀이
+https://github.com/zldzldzz/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Gold/18430.%E2%80%85%EB%AC%B4%EA%B8%B0%E2%80%85%EA%B3%B5%ED%95%99
 
 ### 개념 정리
 
