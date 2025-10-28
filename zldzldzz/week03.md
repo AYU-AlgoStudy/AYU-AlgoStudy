@@ -17,3 +17,27 @@ https://github.com/zldzldzz/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Gold/18430.%E
 
 ### 총평
 백트래킹 경우의 수를 미리 고려하는 것을 배웠다.
+
+--- 
+
+## 3주차 2번 문제 BOJ 16571번
+
+🔗| 문제 Link
+
+https://www.acmicpc.net/problem/16571
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Gold/16571.%E2%80%85%EC%95%8C%ED%8C%8C%E2%80%85%ED%8B%B1%ED%83%9D%ED%86%A0/%EC%95%8C%ED%8C%8C%E2%80%85%ED%8B%B1%ED%83%9D%ED%86%A0.java#L47
+
+### 개념 정리
+**백트래킹 상태복원과 재귀 종료 시점에 따른 출력 정리**
+ 
+문제 풀이 과정에서 개선점
+
+    현재 상태와 누구의 차례인지 보내면 승패를 알려주는 조건을 만들고
+    실제 틱택토가 돌아가는 메서드를 만들었다. 승리와 패배, 무승부
+    사이의 우선 순위 선정을 결정하지 못해서 틀렸었다.
+
+### 총평
+    함수를 더 나눠서 진행한다면 다 쉽게 문제를 해결할 수 도 있을 것 같다.
+
