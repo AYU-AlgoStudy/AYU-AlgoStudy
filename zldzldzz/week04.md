@@ -195,3 +195,22 @@ https://github.com/zldzldzz/Algorithm/commit/f51a8a46236f687e920ea29efa438f913cf
 이런 문제도 못 풀고 틀리는데 나는 언제 코딩 테스트 시험을 볼 수 있을지 모르겠다.
 
 ---
+## 4주차 5번 문제 PGS 가장 큰 수
+🔗| 문제 Link
+
+https://school.programmers.co.kr/learn/courses/30/lessons/42746
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/a87aa843cdf6f1ecd2917cf6eeb04db8fbe461a7
+
+### 해당 문제 풀이 설명
+
+**문제 풀이 과정에서 개선점 & 배운점**
+
+    지금까지 많은 문제를 만나서 그런지 compar가 필요하다는 것을 빠르게 파악할 수 있었다.
+    하지만 처음에는 자리수로 나눠서 계산하기 위해서 수많은 시도를 했지만 모두 실패하고 String형을 통해 사전식을 
+    사용하면 해결 할 수 있다는 것을 알게 되어 문제를 해결 할 수 있었다.
+    마지막에는 0이 주어졌을 때 예외처리 안해서 마지막까지 틀렸다. 
+
+### 총평
+이것도 경험이겠지.. 하다보면 늘겠지
