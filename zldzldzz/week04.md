@@ -237,3 +237,26 @@ https://github.com/zldzldzz/Algorithm/commit/8cc3ad5561ae8cbe25df4ce7aa7640e988c
 
 ---
 
+## 4주차 8번 문제 PGS 체육복
+🔗| 문제 Link
+
+https://school.programmers.co.kr/learn/courses/30/lessons/42862
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/0b59bbd9e0163642ccfeae5c2ccfb26b46ef2af8
+
+### 해당 문제 풀이 설명
+
+**문제 풀이 과정에서 개선점 & 배운점**
+
+    개인적으로 풀고 나서 재미있었던 문제 였다. 문제를 해결하기 위한 단계를 매우 조금씩 해결했다.
+    처음에는 무조건 뒤에 친구에서 옷을 빌리는 방식이었지만 앞에 친구에게 먼저 빌리는 형식으로 수정하고 
+    질문하기를 통해 제공되는 예시와 다르게 입력이 정렬이 안 될 수 있다는 것을 수정하고 한번 더 질문하기
+    를 통해서 여분을 챙긴 친구가 도난 당할 수도 있다는 것을 수정했다.
+
+### 총평
+단계별로 고치는 이 느낌 재미있었지만 한번에 풀 자신은 없었다..
+
+---
+
+
