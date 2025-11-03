@@ -195,7 +195,7 @@ https://github.com/zldzldzz/Algorithm/commit/f51a8a46236f687e920ea29efa438f913cf
 이런 문제도 못 풀고 틀리는데 나는 언제 코딩 테스트 시험을 볼 수 있을지 모르겠다.
 
 ---
-## 4주차 5번 문제 PGS 가장 큰 수
+## 4주차 6번 문제 PGS 가장 큰 수
 🔗| 문제 Link
 
 https://school.programmers.co.kr/learn/courses/30/lessons/42746
@@ -214,3 +214,26 @@ https://github.com/zldzldzz/Algorithm/commit/a87aa843cdf6f1ecd2917cf6eeb04db8fbe
 
 ### 총평
 이것도 경험이겠지.. 하다보면 늘겠지
+
+---
+## 4주차 7번 문제 BOJ 1463
+🔗| 문제 Link
+
+https://www.acmicpc.net/problem/1463
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/8cc3ad5561ae8cbe25df4ce7aa7640e988c0c869
+
+### 해당 문제 풀이 설명
+
+**문제 풀이 과정에서 개선점 & 배운점**
+
+    DP를 사용한다고 해서 겁을 먹었지만 생각했던 것 보다 매우 빠른 시간에 해결 할 수 있었다.
+    DP란 큰 문제를 해결하기 위해 작은 단위의 문제로 나눠서 해결하는 방식이었다.
+    ex) 피보나치 수열
+
+### 총평
+가볍다..?
+
+---
+
