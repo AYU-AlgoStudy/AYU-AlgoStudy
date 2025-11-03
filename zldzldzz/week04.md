@@ -151,7 +151,7 @@ https://github.com/zldzldzz/Algorithm/commit/38ae3695b56d1ffb138292542e1a362551b
 
 ---
 
-## 4주차 3번 PGS 모음 사전 문제 
+## 4주차 4번 PGS 모음 사전 문제 
 🔗| 문제 Link
 
 https://www.acmicpc.net/problem/1753
@@ -172,5 +172,26 @@ https://github.com/zldzldzz/Algorithm/commit/43a64bad6ad2880f18d19797ae3aa54661d
 
 ### 총평
 지금까지 dfs를 그렇게 많이 만들고 해당 순서에 대해서 생각 조차 하지 못한다는 것을 느낀 하루였다.
+
+---
+
+## 4주차 5번 문제 BOJ 17073번
+🔗| 문제 Link
+
+https://www.acmicpc.net/problem/17073
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/f51a8a46236f687e920ea29efa438f913cfffdf1
+
+### 해당 문제 풀이 설명
+
+**문제 풀이 과정에서 개선점 & 배운점**
+
+    이전 문제에 이어서 풀고 나서 오랜시간 충격을 받은 문제이다. 트리, 확률이라는 설명을 읽으면서 도저히 어떤 식으로
+    문제를 해결해야 하는지 전혀 생각하지 못하고 오랜 시간 고민했지만 시작 조차 할 수 없었다.
+    같이 문제를 푸는 친구에게 도움을 요청해 전체 자식 노드의 수로 나누라는 말을 듣고 충격에 말을 할 수 없었다.
+
+### 총평
+이런 문제도 못 풀고 틀리는데 나는 언제 코딩 테스트 시험을 볼 수 있을지 모르겠다.
 
 ---
