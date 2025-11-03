@@ -259,4 +259,23 @@ https://github.com/zldzldzz/Algorithm/commit/0b59bbd9e0163642ccfeae5c2ccfb26b46e
 
 ---
 
+## 4주차 9번 문제 18870
+🔗| 문제 Link
 
+https://www.acmicpc.net/problem/18870
+
+### 문제 풀이
+https://github.com/zldzldzz/Algorithm/commit/831d08fd697c0784fc1fe19ec3dae34ff823ef02
+
+### 해당 문제 풀이 설명
+
+**문제 풀이 과정에서 개선점 & 배운점**
+
+    처음에는 일반 배열만 사용해서 풀어 보려고 했지만 중복 제거를 위해서 set을 사용하게 되었고 set은 순서가 없기
+    때문에 순서를 통해 정렬을 사용하기 위해 list가 추가 되었고 마지막으로 반복문을 통한 출력은 시간 초과가 나와서 
+    Map을 통해 딕셔너리 형식으로 출력을 사용하게 되었다.
+
+### 총평
+지금까지는 출력 시간은 생각하지 않아도 시간 초과가 나오지 않았지만 해당 방식을 배우는 계기가 되었다.
+
+---
