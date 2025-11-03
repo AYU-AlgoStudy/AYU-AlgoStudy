@@ -279,3 +279,26 @@ https://github.com/zldzldzz/Algorithm/commit/831d08fd697c0784fc1fe19ec3dae34ff82
 지금까지는 출력 시간은 생각하지 않아도 시간 초과가 나오지 않았지만 해당 방식을 배우는 계기가 되었다.
 
 ---
+
+## 4주차 10번 문제 2615
+🔗| 문제 Link
+
+https://www.acmicpc.net/problem/2615
+
+### 문제 풀이(2번째 제출로 주석 추가)
+https://github.com/zldzldzz/Algorithm/commit/59273713960eb384bcf7edc9740a302ff9a32ef3
+
+### 해당 문제 풀이 설명
+
+**문제 풀이 과정에서 개선점 & 배운점**
+
+    문제를 해결하지 못해서 블로그를 찾아보고 분석한 후에 구현할 수 있었다.
+    [] result: 0에는 누가 이겼는지 1,2는 좌표를 표현한다.
+    구현을 못한 부분은 5개인지 아닌지를 검토하는 코드였다.
+    주석을 통해 흐름을 충분히 설명함으로 흐름을 설명하지 않겠다.
+
+### 총평
+실버 1이지만 체감상 골드 4 진짜 어려웠다.
+
+### 참고 자료
+https://velog.io/@chaerim1001/%EB%B0%B1%EC%A4%80-2615%EB%B2%88-%EC%98%A4%EB%AA%A9-Java
