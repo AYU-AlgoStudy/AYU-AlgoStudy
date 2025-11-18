@@ -43,3 +43,57 @@
 
 ### 참고 자료
 > BOJ 2579 계단오르기
+
+---
+
+## 6주차 2번 문제 BOJ 
+
+### 🔗| 문제 Link
+> https://www.acmicpc.net/problem/1405
+
+### 문제 풀이
+> [백준/Gold/1405. 미친 로봇/미친 로봇.cc](https://github.com/Okchun-Yee/CodingTestStudy/blob/670d764a0ec7c0ff1c5f6a205d2463f8f2aa8b59/%EB%B0%B1%EC%A4%80/Gold/1405.%E2%80%85%EB%AF%B8%EC%B9%9C%E2%80%85%EB%A1%9C%EB%B4%87/%EB%AF%B8%EC%B9%9C%E2%80%85%EB%A1%9C%EB%B4%87.cc)
+
+### 개념 정리
+> **백트래킹의 활용에 대해서**
+
+    이 문제를 처음 파악했을 때에는 어떠한 방식으로 탐색은 해야하는가? 에 대한 감도 잡지 못했다. 그렇기에 백준 질문들을 돌아보면서 힌트를 얻었다.
+
+    예상외로 문제는 간단했다. 방문 검사와 매개변수로 확률을 누적 시키는 단순한 문제였다.
+``` C++
+    // 의사코드
+
+    N = 목표 이동 횟수 (총 레벨)
+    answer = 최종 결과
+    visited[][] = 2차원 방문 배열
+    dr[] = {행 이동 값 4개}
+    dc[] = {열 이동 값 4개} 
+    dir[] = {4방향 확률}
+
+    void DFS(r, c, 탐색레벨, 누적확률):
+        // 1. BaseCase
+        if 탐색레벨이 == N에 도달하는 경우:
+            answer += 누적확률
+            return
+        // 2. Do) 방문 처리
+        visited[r][c]=true
+        // 3. 재귀) 연결된 4방향을 탐색
+        for(i=0;i<4;++i):
+            다음 r = dir[i]+r
+            다음 c = dir[i]+c
+            if nr, nc 범위 검사:
+                if visitrd[nr][nc] 방문 검사:
+                    DFS(nr, nc, 탐색레벨+1, 누적확률*dir[i])
+        // 4. Undo) 방문 철회
+        visited[r][c]=false
+
+```
+
+> 문제 풀이 과정에서 개선점
+    Ex
+
+### 총평
+>
+
+### 참고 자료
+> 
